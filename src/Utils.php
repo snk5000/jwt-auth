@@ -22,7 +22,7 @@ class Utils
      */
     public static function now()
     {
-        return Carbon::now();
+        return Carbon::now('UTC');
     }
 
     /**
